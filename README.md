@@ -1,6 +1,6 @@
 ## Visit my portfolio
 
-[Portfolio](https://portfolio-ignacio-seco.vercel.ap)
+[Portfolio](https://portfolio-ignacio-seco.vercel.app)
 
 ## Available Scripts
 
