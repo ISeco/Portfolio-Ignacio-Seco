@@ -14,12 +14,10 @@ export const HeaderInfo = () => {
   return (
     
     <Row align="center" style={{ marginTop: "30px" }}>
-      <Col>
-        <Image
+      <Col align="center">
+        <img
           className='image-profile'
           src="https://res.cloudinary.com/dl7kl3hgv/image/upload/v1652592826/image-profile_m43vnq.jpg"
-          width="auto"
-          height="auto"
         /> 
       </Col>
       <Col>
