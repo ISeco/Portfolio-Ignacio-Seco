@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { NextUIProvider } from '@nextui-org/react';
 import { BrowserRouter } from "react-router-dom";
-
+import './index.css'
 import { App } from './App';
 import { darkTheme } from './theme/theme'
 

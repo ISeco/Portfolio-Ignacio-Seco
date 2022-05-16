@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: aliceblue;
+}
+
+.header-info {
+  background-color: #FFFF;
+  background: url("https://res.cloudinary.com/dl7kl3hgv/image/upload/v1652649075/stacked-waves-haikei_yss5ly.jpg") no-repeat center top;
+  background-size: cover; 
+  background-position: top; 
+  min-width: 630px;
+  min-height: 650px;
+  max-height: 1000px;
+}
+
+.skills-info {
+  background-color: #FFFF;
+  background: #FFFF;
+}
+
+.image-profile {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}

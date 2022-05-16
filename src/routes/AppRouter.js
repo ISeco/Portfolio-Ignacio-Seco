@@ -13,7 +13,6 @@ export const AppRouter = () => {
   useEffect(() => {
     navegate('/home');
   }, [])
-  
 
   return (
     <div>

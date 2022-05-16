@@ -3,10 +3,10 @@ import Typed from 'typed.js';
 
 export const Typing = ( element ) => {
     const options = {
-        strings: ['Frontend', 'Backend'],
+        strings: ['Full-Stack'],
         typeSpeed: 90,
         backSpeed: 90,
-        loop: true
+        loop: false
     }
 
     useEffect(() => {
