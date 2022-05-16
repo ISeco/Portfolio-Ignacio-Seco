@@ -1,4 +1,4 @@
-## Visit my portfolio
+## Visit my Portfolio
 
 [Portfolio](https://portfolio-ignacio-seco.vercel.app)
 
