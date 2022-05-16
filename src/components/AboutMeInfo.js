@@ -3,14 +3,13 @@ import React from 'react'
 
 export const AboutMeInfo = () => {
   return (
-    <Container sm={12} xl={6} xs={12}>
-      <Row align="center">
-        <Col css={{ width: "clam(1800px,75%, 2000px)" }} align="center">
+    <Container responsive={true} css={{ marginTop: "20px" }}>
+      <Row align="center" justify='center'>
+        <Col span={6} align="center">
           <Text h3>Sobre Mi</Text>
-          <Text p style={{
+          <Text as={'p'} style={{
             marginTop: "20px",
             marginBottom: "20px",
-            maxWidth: "70ch",
             minWidth: "50ch"
           }}>
             Soy un joven titulado de ingeniería en informática con ganas de aprender cosas nuevas

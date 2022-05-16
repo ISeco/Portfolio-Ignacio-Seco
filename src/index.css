@@ -6,10 +6,10 @@ body {
 }
 
 .header-info {
-  background-color: #FFFF;
   background: url("https://res.cloudinary.com/dl7kl3hgv/image/upload/v1652649075/stacked-waves-haikei_yss5ly.jpg") no-repeat center top;
   background-size: cover; 
-  background-position: top; 
+  background-position: top;
+  width: 100%;
   min-width: 630px;
   min-height: 650px;
   max-height: 1000px;

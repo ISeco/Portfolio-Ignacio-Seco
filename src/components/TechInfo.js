@@ -2,8 +2,8 @@ import React from 'react';
 import {
   Card,
   Col,
+  Container,
   Grid,
-  Image,
   Row,
   Spacer,
   Text
@@ -25,36 +25,38 @@ export const TechInfo = () => {
     );
   };
   return (
-    <Row align="center">
-      <Col align="center" style={{ padding: "20px" }}>
-        <Text h3>Tecnologías</Text>
-        <Spacer y={1} />
-        <Grid.Container gap={2} justify="center">
-          <Grid xs={3}>
-            <ImageItem src={js} />
-          </Grid>
-          <Grid xs={3}>
-            <ImageItem src={react} />
-          </Grid>
-          <Grid xs={3}>
-            <ImageItem src={node} />
-          </Grid>
-          <Grid xs={3}>
-            <ImageItem src={redux} />
-          </Grid>
-        </Grid.Container>
-        <Grid.Container gap={2} justify="center">
-          <Grid xs={3}>
-            <ImageItem src={flutter} />
-          </Grid>
-          <Grid xs={3}>
-            <ImageItem src={git} />
-          </Grid>
-          <Grid xs={3}>
-            <ImageItem src={vercel} />
-          </Grid>
-        </Grid.Container>
-      </Col>
-    </Row>
+    <Container responsive={true}>
+      <Row gap={0} align="center" justify='center'>
+        <Col span={8} align="center">
+          <Text h3>Tecnologías</Text>
+          <Spacer y={1} />
+          <Grid.Container gap={2} justify="center">
+            <Grid xs={3}>
+              <ImageItem src={js} />
+            </Grid>
+            <Grid xs={3}>
+              <ImageItem src={react} />
+            </Grid>
+            <Grid xs={3}>
+              <ImageItem src={node} />
+            </Grid>
+            <Grid xs={3}>
+              <ImageItem src={redux} />
+            </Grid>
+          </Grid.Container>
+          <Grid.Container gap={2} justify="center">
+            <Grid xs={3}>
+              <ImageItem src={flutter} />
+            </Grid>
+            <Grid xs={3}>
+              <ImageItem src={git} />
+            </Grid>
+            <Grid xs={3}>
+              <ImageItem src={vercel} />
+            </Grid>
+          </Grid.Container>
+        </Col>
+      </Row>
+    </Container>
   )
 }
