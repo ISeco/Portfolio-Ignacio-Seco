@@ -3,7 +3,7 @@ import Typed from 'typed.js';
 
 export const Typing = ( element ) => {
     const options = {
-        strings: ['Full-Stack'],
+        strings: ['Full-Stack MERN'],
         typeSpeed: 90,
         backSpeed: 90,
         loop: false
