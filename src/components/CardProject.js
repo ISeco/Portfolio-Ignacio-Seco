@@ -51,10 +51,8 @@ export const CardProject = ({ titleProject, urlImg, technology, description, url
           <Col span={3}>
             <Row justify="flex-end">
               <Button
-                flat
                 auto
-                rounded
-                css={{ color: "#17C964", bg: "#94f9f026" }}
+                color="primary"
                 onClick={ () => {
                   window.open(urlProject, '_blank');
                 }}
