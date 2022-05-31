@@ -39,10 +39,10 @@ export const CardProject = ({ titleProject, urlImg, technology, description, url
           <Col span={9}>
             <Row justify='flex-start'>
               <Col>
-                <Text css={{ textAlign: "start" }} color="#d1d1d1" size={15}>
+                <Text css={{ textAlign: "start" }} color="#FFF" size={15}>
                   {technology}
                 </Text>
-                <Text css={{ textAlign: "start" }} color="#d1d1d1" size={12}>
+                <Text css={{ textAlign: "start" }} color="#FFF" size={12}>
                   {description}
                 </Text>
               </Col>
