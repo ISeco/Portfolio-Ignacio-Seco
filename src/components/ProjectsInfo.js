@@ -14,6 +14,7 @@ export const ProjectsInfo = () => {
               titleProject={'ExoSpace'}
               technology={'Flutter'}
               urlImg={'https://res.cloudinary.com/dl7kl3hgv/image/upload/v1652729720/1_im53cx.jpg'}
+              description='Podrás ver información relevante sobre de Exoplanetas y más.'
               urlProject={'https://github.com/ISeco/ExoSpace'}
             />
           </Grid>

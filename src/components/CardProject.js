@@ -1,7 +1,7 @@
 import { Button, Card, Col, Row, Text } from '@nextui-org/react'
 import React from 'react'
 
-export const CardProject = ({ titleProject, urlImg, technology, urlProject }) => {
+export const CardProject = ({ titleProject, urlImg, technology, description, urlProject }) => {
   return (
     <Card cover css={{ w: "100%", p: 0, m: 10 }}>
       <Card.Header blur css={{
@@ -35,17 +35,20 @@ export const CardProject = ({ titleProject, urlImg, technology, urlProject }) =>
           zIndex: 1,
         }}
       >
-        <Row>
-          <Col>
-            <Row>
+        <Row align='center'>
+          <Col span={9}>
+            <Row justify='flex-start'>
               <Col>
-                <Text color="#d1d1d1" size={15}>
+                <Text css={{ textAlign: "start" }} color="#d1d1d1" size={15}>
                   {technology}
+                </Text>
+                <Text css={{ textAlign: "start" }} color="#d1d1d1" size={12}>
+                  {description}
                 </Text>
               </Col>
             </Row>
           </Col>
-          <Col>
+          <Col span={3}>
             <Row justify="flex-end">
               <Button
                 flat
